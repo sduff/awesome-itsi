@@ -117,7 +117,7 @@ KPI base searches for maximum performance.
 Due to the limitations of modules, the current best practice is to use the
 content packs instead.
 
-Further details on ITSI Content Packs can be found at [https://docs.splunk.com/Documentation/ITSICP/current/Config/About] (https://docs.splunk.com/Documentation/ITSICP/current/Config/About) 
+Further details on ITSI Content Packs can be found at [https://docs.splunk.com/Documentation/ITSICP/current/Config/About](https://docs.splunk.com/Documentation/ITSICP/current/Config/About) 
 
 ### Content Pack for Monitoring Microsoft Windows 
 
@@ -137,7 +137,7 @@ Download the latest Content Pack for Monitoring Unix and Linux from [https://doc
 
 Download the latest Content Pack for Shared IT Infrastructure Components from
 [https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigShared#Install_the_content_pack](https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigShared#Install_the_content_pack) or [Splunkbase](https://splunkbase.splunk.com/app/4044/).
-Documentation for this pack can be found at [https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutShared] (https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutShared)
+Documentation for this pack can be found at [https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutShared](https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutShared)
 
 #### Support Add-Ons
 - [Splunk Add-on for Microsoft Windows](https://splunkbase.splunk.com/app/742/)
