@@ -19,6 +19,8 @@ Resources for getting started with Splunk IT Service Intelligence.
 
 - [Splunk Website](https://splunk.com)
   - [Downloads](https://www.splunk.com/download)
+  - [Previous Releases](https://www.splunk.com/page/previous_releases)
+  - [Awesome Splunk](https://github.com/sduff/awesome-splunk) - A curated list of awesome Splunk resources.
 - [Splunk ITSI](https://www.splunk.com/en_us/software/it-service-intelligence.html)
   - [Splunkbase Entry](https://splunkbase.splunk.com/app/1841/) - Download page for licensed users.
   - [Documentation](https://docs.splunk.com/Documentation/ITSI/latest)
