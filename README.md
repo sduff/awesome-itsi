@@ -121,23 +121,25 @@ Further details on ITSI Content Packs can be found at [https://docs.splunk.com/D
 
 ### Content Pack for Monitoring Microsoft Windows 
 
-Download the latest Content Pack for Monitoring Microsoft Windows from [https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigWin#Install_the_content_pack](https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigWin#Install_the_content_pack). Documentation for this pack can be found at [https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutWin](https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutWin).
+- [Content Pack for Monitoring Microsoft Windows Download](https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigWin#Install_the_content_pack)
+- [Documentation](https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutWin).
 
 #### Support Add-Ons
 - [Splunk Add-on for Microsoft Windows](https://splunkbase.splunk.com/app/742/)
 
 ### Content Pack for Monitoring Unix and Linux 
 
-Download the latest Content Pack for Monitoring Unix and Linux from [https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigNix#Install_the_content_pack](https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigNix#Install_the_content_pack). Documentation for this pack can be found at [https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutNix](https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutNix).
+- [Content Pack for Monitoring Unix and Linux Download](https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigNix#Install_the_content_pack)
+- [Documentation](https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutNix)
 
 #### Support Add-Ons
 - [Splunk Add-on for Unix and Linux](https://splunkbase.splunk.com/app/833/)
 
 ### Splunk ITSI Content Pack for Shared IT Infrastructure Components
 
-Download the latest Content Pack for Shared IT Infrastructure Components from
-[https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigShared#Install_the_content_pack](https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigShared#Install_the_content_pack) or [Splunkbase](https://splunkbase.splunk.com/app/4044/).
-Documentation for this pack can be found at [https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutShared](https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutShared)
+- [Content Pack for Shared IT Infrastructure Components Download](https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigShared#Install_the_content_pack)
+- [Splunkbase Entry](https://splunkbase.splunk.com/app/4044/) - Alternate download site on Splunkbase.
+- [Documentation](https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutShared)
 
 #### Support Add-Ons
 - [Splunk Add-on for Microsoft Windows](https://splunkbase.splunk.com/app/742/)
