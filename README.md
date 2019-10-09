@@ -144,7 +144,7 @@ Documentation for this pack can be found at [https://docs.splunk.com/Documentati
 - [Splunk Add-on for Unix and Linux](https://splunkbase.splunk.com/app/833/)
 
 ## Notable Event Aggregation Policy
-- A Blueprint for Splunk ITSI Alerting
+- A Blueprint for Splunk ITSI Alerting - A Splunk blog series by Jeff Wiedemann on developing a blueprint for enterprise-wide alerting.
   - [Overview](https://www.splunk.com/blog/2019/01/10/a-blueprint-for-splunk-itsi-alerting-overview.html)
   - [Part 1](https://www.splunk.com/blog/2019/01/18/a-blueprint-for-splunk-itsi-alerting-step-1.html)
   - [Part 2](https://www.splunk.com/blog/2019/02/01/a-blueprint-for-splunk-itsi-alerting-step-2.html)
