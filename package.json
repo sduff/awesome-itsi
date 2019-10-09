@@ -1,9 +1,9 @@
 {
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/sduff/awesome-itsi.git"
-    },
-    "license": "CC0-1.0",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/sduff/awesome-itsi.git"
+	},
+	"license": "CC0-1.0",
 	"scripts": {
 		"test": "awesome-lint"
 	},

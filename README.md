@@ -1,20 +1,21 @@
 # Awesome ITSI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome resourcesi for Splunk IT Service Intelligence.
+> A curated list of awesome resources for Splunk IT Service Intelligence.
 
 ## Contents
 
 - [Basics](#basics)
 - [Education and Training](#education-and-training)
+- [Professional Services](#professional-services)
 - [Modules](#modules)
-- [3rd Party Modules](#3rd-party-modules)
+- [Content Packs](#content-packs)
 - [Notable Event Aggregation Policy](#notable-event-aggregation-policy)
 - [Integrations](#integrations)
 - [.Conf Presentations](#conf-presentations)
 
 ## Basics
 
-Basic resources for getting started with Splunk IT Service Intelligence.
+Resources for getting started with Splunk IT Service Intelligence.
 
 - [Splunk Website](https://splunk.com)
   - [Downloads](https://www.splunk.com/download)
@@ -30,6 +31,13 @@ Basic resources for getting started with Splunk IT Service Intelligence.
 - Certifications
   - [Splunk ITSI Certified Admin](https://www.splunk.com/en_us/training/certification-track/splunk-itsi-certified-admin.html)
   - [Splunk ITSI Admin Blueprint](https://www.splunk.com/content/dam/splunk2/pdfs/training/Splunk-Test-Blueprint-ITSI-Admin-v1.1.pdf) - A guide to the examinable material in the ITSI Admin certification.
+
+## Professional Services
+
+Need to get the experts involved in an ITSI implementation, or seeing guidance.
+
+- [Splunk ITOA Professional Service Offerings](https://www.splunk.com/en_us/support-and-services/splunk-services/offerings/itoa-services.html)
+- [Splunk Partners for ITSI Implementation](https://partners.splunk.com/locator/search?f0=Professional+Services+Specializations&f0v0=ITSI+Implementation)
 
 ## Modules
 
@@ -51,7 +59,8 @@ Splunk Cloud, request it to be installed from Splunk Cloud Ops.
 
 ### Splunk ITSI Module for Continuous Delivery The Module for Continuous
 
-Delivery does not shop with ITSI by default. It can be [downloaded from
+The Splunk ITSI Module for Continuous Delivery does not shop with ITSI by
+default. It can be [downloaded from
 Splunkbase](https://splunkbase.splunk.com/app/3439/). If you are using ITSI on
 Splunk Cloud, request it to be installed from Splunk Cloud Ops.
 
@@ -95,32 +104,48 @@ Splunk Cloud, request it to be installed from Splunk Cloud Ops.
 - [Splunk Add-on for Apache Web Server](https://splunkbase.splunk.com/app/3186/)
 - [Splunk Add-on for Microsoft IIS](https://splunkbase.splunk.com/app/3185/)
 
-## 3rd Party Modules
+## Content Packs
 
-### ITSI Module for Open Banking
+ITSI currently still supports modules. Modules were introduced in version 2.0
+as a way to deliver out-of-the-box content to customers. 
 
-*This Module is a framework, and requires significant customization by the Developer for use.*
+Like content packs, modules include KPI base searches, KPIs, and entity
+auto-discovery searches, but not the other elements that content packs provide.
+One key difference is that all module content is immutable, so you can't tailor
+KPI base searches for maximum performance.
 
-The [ITSI Module for Open Banking](https://splunkbase.splunk.com/app/4485/)
-provides an ITSI Service Hierarchy and KPIs to monitor Open
-Banking APIs.
+Due to the limitations of modules, the current best practice is to use the
+content packs instead.
 
-### ITSI module for Nmon Metricator
+Further details on ITSI Content Packs can be found at
+[https://docs.splunk.com/Documentation/ITSICP/current/Config/About]
+(https://docs.splunk.com/Documentation/ITSICP/current/Config/About) 
 
-The [ITSI Module for Nmon Metricator](https://splunkbase.splunk.com/app/4123/)
-packages the [`nmon`](http://nmon.sourceforge.net/pmwiki.php) utility to
-generate performance and inventory data for AIX, Linux and Solaris servers.
+### Content Pack for Monitoring Microsoft Windows 
+
+Download the latest Content Pack for Monitoring Microsoft Windows from [https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigWin#Install_the_content_pack](https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigWin#Install_the_content_pack). Documentation for this pack can be found at [https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutWin](https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutWin).
 
 #### Support Add-Ons
-- [Nmon Technology Add-On](https://splunkbase.splunk.com/app/3948/)
-- [Nmon Technology Add-On - HEC Version](https://splunkbase.splunk.com/app/4022/)
+- [Splunk Add-on for Microsoft Windows](https://splunkbase.splunk.com/app/742/)
 
-### Splunk ITSI Module for Puppet Enterprise
+### Content Pack for Monitoring Unix and Linux 
 
-The [Splunk ITSI Module for Puppet
-Enterprise](https://splunkbase.splunk.com/app/3716)/ utilizes the Notable
-Events and Action Framework, to trigger Puppet Orchestrator to perform
-pre-defined tasks on select services.
+Download the latest Content Pack for Monitoring Unix and Linux from [https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigNix#Install_the_content_pack](https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigNix#Install_the_content_pack). Documentation for this pack can be found at [https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutNix](https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutNix).
+
+#### Support Add-Ons
+- [Splunk Add-on for Unix and Linux](https://splunkbase.splunk.com/app/833/)
+
+### Splunk ITSI Content Pack for Shared IT Infrastructure Components
+
+Download the latest Content Pack for Shared IT Infrastructure Components from
+[https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigShared#Install_the_content_pack](https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigShared#Install_the_content_pack) or [Splunkbase](https://splunkbase.splunk.com/app/4044/).
+Documentation for this pack can be found at
+[https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutShared]
+(https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutShared)
+
+#### Support Add-Ons
+- [Splunk Add-on for Microsoft Windows](https://splunkbase.splunk.com/app/742/)
+- [Splunk Add-on for Unix and Linux](https://splunkbase.splunk.com/app/833/)
 
 ## Notable Event Aggregation Policy
 - A Blueprint for Splunk ITSI Alerting
@@ -135,9 +160,21 @@ pre-defined tasks on select services.
 - Phantom
   - [Awesome Phantom](https://github.com/ryanplasma/awesome-splunk-phantom)
 - VictorOps
+  - [Splunk Integration Guide - VictorOps](https://help.victorops.com/knowledge-base/splunk-integration-guide/) - The VictorOps and Splunk integration allow teams to schedule queries or alerts in Splunk to monitor system health. The VictorOps integration with Splunk can be leveraged to collect data about the overall release toolchain and deployment success to allow teams to collaborate around that information in the timeline.
+  - [Create ticket inb VictorOps - Splunk](https://docs.splunk.com/Documentation/ITSI/4.3.1/User/Setupandrunnotableeventactions#Create_a_ticket_in_VictorOps) - You can create an incident in a VictorOps incident management system for an (ITSI) episode.
 
 ## .Conf Presentations
-- [ITSI .Conf Presentations](https://conf.splunk.com/watch/conf-online.html?search=ITSI#/)
+
+Selected .conf presentations related to various aspects of ITSI.
+
+- [ITSI .Conf Presentations](https://conf.splunk.com/watch/conf-online.html?search.products=1518807815929006Tats#/)
+  - [Introduction to Splunk IT Service Intelligence](https://conf.splunk.com/files/2016/slides/introduction-to-splunk-it-service-intelligence.pdf) - .conf16.
+  - [Anatomy of a successful Splunk IT Service Intelligence Deployment](https://conf.splunk.com/files/2017/slides/automation-of-event-correlation-and-clustering-with-built-in-machine-learning-algorithms-in-splunk-it-service-intelligence-itsi.pdf) - .conf17.
+  - [Ready, Set, Go! Learn from others - The First 30 day Experiences of ITSI Customers](https://conf.splunk.com/files/2017/slides/ready-set-go-learn-from-others-the-first-30-day-experiences-of-itsi-customers.pdf) - .conf17.
+  - [The Splunk IT Service Intelligence (ITSI) Top 20 KPIs](https://conf.splunk.com/files/2017/slides/ready-set-go-learn-from-others-the-first-30-day-experiences-of-itsi-customers.pdf) - .conf17.
+  - [Faster Time to Value with ITSI Modules](https://conf.splunk.com/files/2016/slides/faster-time-to-value-with-itsi-modules.pdf) - .conf17.
+  - [Anatomy of a successful Event Analytics Deployment](https://static.rainfocus.com/splunk/splunkconf18/sess/1523395100233001xpRe/finalPDF/IT1428_AnatomySuccessfulEventAnalytics_Final_1538858366825001rI4i.pdf) - .conf18.
+
 
 ## Contribute
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
