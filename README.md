@@ -122,7 +122,7 @@ Further details on ITSI Content Packs can be found at [https://docs.splunk.com/D
 ### Content Pack for Monitoring Microsoft Windows 
 
 - [Content Pack for Monitoring Microsoft Windows Download](https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigWin#Install_the_content_pack)
-- [Documentation](https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutWin).
+- [Documentation](https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutWin)
 
 #### Support Add-Ons
 - [Splunk Add-on for Microsoft Windows](https://splunkbase.splunk.com/app/742/)
@@ -158,8 +158,8 @@ Further details on ITSI Content Packs can be found at [https://docs.splunk.com/D
 - Phantom
   - [Awesome Phantom](https://github.com/ryanplasma/awesome-splunk-phantom)
 - VictorOps
-  - [Splunk Integration Guide - VictorOps](https://help.victorops.com/knowledge-base/splunk-integration-guide/) - The VictorOps and Splunk integration allow teams to schedule queries or alerts in Splunk to monitor system health. The VictorOps integration with Splunk can be leveraged to collect data about the overall release toolchain and deployment success to allow teams to collaborate around that information in the timeline.
-  - [Create ticket inb VictorOps - Splunk](https://docs.splunk.com/Documentation/ITSI/4.3.1/User/Setupandrunnotableeventactions#Create_a_ticket_in_VictorOps) - You can create an incident in a VictorOps incident management system for an (ITSI) episode.
+  - [Splunk Integration Guide - VictorOps](https://help.victorops.com/knowledge-base/splunk-integration-guide/) - The VictorOps and Splunk integration allow teams to schedule queries or alerts in Splunk to monitor system health. The VictorOps integration with Splunk can be leveraged to collect data about the overall release tool chain and deployment success to allow teams to collaborate around that information in the timeline.
+  - [Create ticket in VictorOps - Splunk](https://docs.splunk.com/Documentation/ITSI/4.3.1/User/Setupandrunnotableeventactions#Create_a_ticket_in_VictorOps) - You can create an incident in a VictorOps incident management system for an (ITSI) episode.
 
 ## .Conf Presentations
 
@@ -181,4 +181,4 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 
 To the extent possible under law, Simon Duff has waived all copyright and
-related or neighboring rights to this work.
+related or neighbouring rights to this work.

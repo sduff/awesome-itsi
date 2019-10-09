@@ -5,9 +5,10 @@
 	},
 	"license": "CC0-1.0",
 	"scripts": {
-		"test": "awesome-lint"
+		"test": "mdspell -r -x -n README.md && awesome-lint "
 	},
 	"devDependencies": {
-		"awesome-lint": "*"
+		"awesome-lint": "*",
+		"markdown-spellcheck": "*"
 	}
 }
