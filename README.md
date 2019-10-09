@@ -117,9 +117,7 @@ KPI base searches for maximum performance.
 Due to the limitations of modules, the current best practice is to use the
 content packs instead.
 
-Further details on ITSI Content Packs can be found at
-[https://docs.splunk.com/Documentation/ITSICP/current/Config/About]
-(https://docs.splunk.com/Documentation/ITSICP/current/Config/About) 
+Further details on ITSI Content Packs can be found at [https://docs.splunk.com/Documentation/ITSICP/current/Config/About] (https://docs.splunk.com/Documentation/ITSICP/current/Config/About) 
 
 ### Content Pack for Monitoring Microsoft Windows 
 
@@ -139,9 +137,7 @@ Download the latest Content Pack for Monitoring Unix and Linux from [https://doc
 
 Download the latest Content Pack for Shared IT Infrastructure Components from
 [https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigShared#Install_the_content_pack](https://docs.splunk.com/Documentation/ITSICP/current/Config/ConfigShared#Install_the_content_pack) or [Splunkbase](https://splunkbase.splunk.com/app/4044/).
-Documentation for this pack can be found at
-[https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutShared]
-(https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutShared)
+Documentation for this pack can be found at [https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutShared] (https://docs.splunk.com/Documentation/ITSICP/current/Config/AboutShared)
 
 #### Support Add-Ons
 - [Splunk Add-on for Microsoft Windows](https://splunkbase.splunk.com/app/742/)
@@ -167,13 +163,13 @@ Documentation for this pack can be found at
 
 Selected .conf presentations related to various aspects of ITSI.
 
-- [ITSI .Conf Presentations](https://conf.splunk.com/watch/conf-online.html?search.products=1518807815929006Tats#/)
-  - [Introduction to Splunk IT Service Intelligence](https://conf.splunk.com/files/2016/slides/introduction-to-splunk-it-service-intelligence.pdf) - .conf16.
-  - [Anatomy of a successful Splunk IT Service Intelligence Deployment](https://conf.splunk.com/files/2017/slides/automation-of-event-correlation-and-clustering-with-built-in-machine-learning-algorithms-in-splunk-it-service-intelligence-itsi.pdf) - .conf17.
-  - [Ready, Set, Go! Learn from others - The First 30 day Experiences of ITSI Customers](https://conf.splunk.com/files/2017/slides/ready-set-go-learn-from-others-the-first-30-day-experiences-of-itsi-customers.pdf) - .conf17.
-  - [The Splunk IT Service Intelligence (ITSI) Top 20 KPIs](https://conf.splunk.com/files/2017/slides/ready-set-go-learn-from-others-the-first-30-day-experiences-of-itsi-customers.pdf) - .conf17.
-  - [Faster Time to Value with ITSI Modules](https://conf.splunk.com/files/2016/slides/faster-time-to-value-with-itsi-modules.pdf) - .conf17.
-  - [Anatomy of a successful Event Analytics Deployment](https://static.rainfocus.com/splunk/splunkconf18/sess/1523395100233001xpRe/finalPDF/IT1428_AnatomySuccessfulEventAnalytics_Final_1538858366825001rI4i.pdf) - .conf18.
+- [All .Conf Presentations for 'ITSI'](https://conf.splunk.com/watch/conf-online.html?search.products=1518807815929006Tats#/)
+- [Introduction to Splunk IT Service Intelligence](https://conf.splunk.com/files/2016/slides/introduction-to-splunk-it-service-intelligence.pdf) - .conf16.
+- [Anatomy of a successful Splunk IT Service Intelligence Deployment](https://conf.splunk.com/files/2017/slides/automation-of-event-correlation-and-clustering-with-built-in-machine-learning-algorithms-in-splunk-it-service-intelligence-itsi.pdf) - .conf17.
+- [Ready, Set, Go! Learn from others - The First 30 day Experiences of ITSI Customers](https://conf.splunk.com/files/2017/slides/ready-set-go-learn-from-others-the-first-30-day-experiences-of-itsi-customers.pdf) - .conf17.
+- [The Splunk IT Service Intelligence (ITSI) Top 20 KPIs](https://conf.splunk.com/files/2017/slides/ready-set-go-learn-from-others-the-first-30-day-experiences-of-itsi-customers.pdf) - .conf17.
+- [Faster Time to Value with ITSI Modules](https://conf.splunk.com/files/2016/slides/faster-time-to-value-with-itsi-modules.pdf) - .conf17.
+- [Anatomy of a successful Event Analytics Deployment](https://static.rainfocus.com/splunk/splunkconf18/sess/1523395100233001xpRe/finalPDF/IT1428_AnatomySuccessfulEventAnalytics_Final_1538858366825001rI4i.pdf) - .conf18.
 
 
 ## Contribute
